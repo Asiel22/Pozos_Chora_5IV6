@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar</title>
+    <style type="text/css">
+  body {
+      background-color: darkorchid;
+      background-size: cover;
+      color: black; 
+      text-align: center;
+      font-size: 4em;
+      font-family: "Times";
+  }
+  
+ h3, p, input {
+    font-family: "Times", sans-serif;
+    text-align: center;
+    color: white;
+  }
+  textArea{
+    width: 500px;
+    height:50px;
+    border: 2px solid #990000;
+    font-family: "Helvetica";
+    font-size: .5em;
+    text-align: center;
+      
+  }
+  
+  input {
+    font-family: "Digital", sans-serif;
+    font-size: 1em;
+    background-color: black;
+    padding: 10px;
+  }
+ 
+  </style>
+</head>
+
+<body>
+    <br>    Cifrado de Cesar
+    <br>
+    <textarea id="cadena" ></textarea>
+
+    <p> <input type="button" value="Cifrar" onclick="codificar()" >
+        <input type="button" value="Decifrar" onclick="decodificar()" > </p>
+    
+    <div id="resultado" > </div>
+    <script src="logica.js" ></script>
+</body>
+</html>
